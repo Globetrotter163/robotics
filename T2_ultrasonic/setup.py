@@ -24,6 +24,8 @@ setup(
     },
     entry_points={
         'console_scripts': [
+            'pubsensor = T2_ultrasonic.distance_getter:main',
+            'pubsensor = T2_ultrasonic.pub_ultrasonic:main'
         ],
     },
 )
